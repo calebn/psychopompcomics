@@ -20,7 +20,7 @@ describe('Home Page', () => {
 	it('should render the hero banner', () => {
 		HomePage();
 		const heroImg = screen.getByRole('img', {
-			name: /seed of cain(.+banner)/i,
+			name: /Colonel Frost holding a pistol and standing in a pile of dead robots, second image layer/i,
 		});
 		expect(heroImg).toBeInTheDocument();
 	});
